@@ -101,8 +101,8 @@ engine = "mysql"
 engine_version = "5.7"
 instance_class = "db.t2.micro"
 name = "mydb"
-username = "sahil"
-password = "sahil1234"
+username = "anubhav"
+password = "anubhav@123"
 db_subnet_group_name = "${aws_db_subnet_group.db-subnet.name}"
 vpc_security_group_ids = ["${aws_security_group.default.id}"]
 }
