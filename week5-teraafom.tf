@@ -94,6 +94,7 @@ vpc_security_group_ids = ["${aws_security_group.default.id}"]
 key_name = "mykey1"
 }
 
+
 resource "aws_db_instance" "mysql-db" {
 allocated_storage = 10
 identifier = "test"
